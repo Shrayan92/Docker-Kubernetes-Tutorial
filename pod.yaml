@@ -1,0 +1,19 @@
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+
+  name: hello-demo
+
+spec:
+
+  containers:
+
+  - name: docker-kubernetes-demo123
+
+    image: docker-kubernetes-demo:v5
+
+    ports:
+
+    - containerPort: 80
